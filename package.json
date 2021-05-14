@@ -1,6 +1,6 @@
 {
 	  "name": "@xxjonakadiptaxx/jak_javascript_package",
-	  "version": "0.0.1",
+	  "version": "0.0.2",
 	  "description": "A JavaScript Package made by JAK",
 	  "main": "index.js",
 	  "scripts": {
