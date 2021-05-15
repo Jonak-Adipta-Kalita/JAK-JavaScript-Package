@@ -1,19 +1,19 @@
 {
-	  "name": "@xxjonakadiptaxx/jak_javascript_package",
-	  "version": "0.0.3",
-	  "description": "A JavaScript Package made by JAK",
-	  "main": "src/index.js",
-	  "scripts": {
+	"name": "@xxjonakadiptaxx/jak_javascript_package",
+	"version": "1.0.0",
+	"description": "A JavaScript Package made by JAK",
+	"main": "src/index.js",
+	"scripts": {
 		"start": "node src/index.js"
-	  },
-	  "repository": {
+	},
+	"repository": {
 		"type": "git",
 		"url": "https://github.com/Jonak-Adipta-Kalita/JAK-JavaScript-Package"
-	  },
-	  "keywords": [
+	},
+	"keywords": [
 		"JS",
 		"JavaScript",
 		"Package"
-	  ],
-	  "author": "Jonak Adipta Kalita && JAK"
+	],
+	"author": "Jonak Adipta Kalita && JAK"
 }
