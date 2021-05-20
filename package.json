@@ -1,6 +1,6 @@
 {
 	"name": "@xxjonakadiptaxx/jak_javascript_package",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"description": "A JavaScript Package made by JAK",
 	"main": "src/index.js",
 	"scripts": {
@@ -11,7 +11,6 @@
 		"url": "https://github.com/Jonak-Adipta-Kalita/JAK-JavaScript-Package"
 	},
 	"keywords": [
-		"JS",
 		"JavaScript",
 		"Package"
 	],
