@@ -1,11 +1,13 @@
 {
 	"name": "@xxjonakadiptaxx/jak_javascript_package",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "A JavaScript Package made by JAK",
-	"author": "Jonak Adipta Kalita && JAK",
+	"author": "Jonak Adipta Kalita",
 	"main": "src/index.js",
 	"scripts": {
-		"start": "nodemon src/index.js"
+		"start": "nodemon src/index.js",
+		"lint": "eslint **/*.js",
+		"lint:fix": "prettier-eslint **/*.js --write"
 	},
 	"repository": {
 		"type": "git",
@@ -15,7 +17,20 @@
 		"JavaScript",
 		"Package"
 	],
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"*.js": ["npm run lint:fix", "git add"]
+	},
 	"devDependencies": {
-		"nodemon": "^2.0.7"
+		"eslint": "^7.27.0",
+		"husky": "^6.0.0",
+		"lint-staged": "^11.0.0",
+		"nodemon": "^2.0.7",
+		"prettier-eslint": "^12.0.0",
+		"prettier-eslint-cli": "^5.0.1"
 	}
 }
