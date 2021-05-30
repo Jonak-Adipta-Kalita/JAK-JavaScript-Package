@@ -28,4 +28,3 @@ npm install @xxjonakadiptaxx/jak_javascript_package
 <a href = "https://github.com/Jonak-Adipta-Kalita/JAK-JavaScript-Package/graphs/contributors">
 	<img src = "https://contrib.rocks/image?repo=Jonak-Adipta-Kalita/JAK-JavaScript-Package" />
 </a>
-
