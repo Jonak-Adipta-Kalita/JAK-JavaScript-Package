@@ -1,11 +1,10 @@
 {
     "name": "@xxjonakadiptaxx/jak_javascript_package",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "description": "A JavaScript Package made by JAK",
     "author": "Jonak Adipta Kalita",
     "main": "src/index.js",
     "scripts": {
-        "start": "nodemon src/index.js",
         "test": "echo No Tests provided till now.",
         "lint": "eslint .",
         "lint:fix": "eslint --fix .",
@@ -23,7 +22,6 @@
     "devDependencies": {
         "eslint": "^7.27.0",
         "husky": "^6.0.0",
-        "nodemon": "^2.0.7",
         "prettier": "^2.3.0"
     }
 }
