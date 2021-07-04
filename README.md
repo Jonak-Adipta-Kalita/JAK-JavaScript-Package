@@ -29,6 +29,52 @@ npm install @xxjonakadiptaxx/jak_javascript_package
 npm install @xxjonakadiptaxx/jak_javascript_package
 ```
 
+## Check if your changes Work
+
+### Clone the Repository
+
+In a Directory open a Terminal and type:
+
+```bash
+git clone https://github.com/Jonak-Adipta-Kalita/JAK-JavaScript-Package.git
+```
+
+### Link the Package
+
+In the Base Directory, in a Terminal type
+
+```bash
+npm link
+```
+
+and hit Enter.
+
+### Make Change
+
+Make some changes and save them.
+
+### Create Test Folder
+
+In the Base Directory, in a Terminal type
+
+```bash
+mkdir test
+cd test
+echo.> test.js
+```
+
+and hit Enter.
+
+### Install the changed Package in the Test Folder
+
+In the Base Directory, in a Terminal type
+
+```bash
+npm link @xxjonakadiptaxx/jak_javascript_package
+```
+
+and hit Enter.
+
 ## Contributors
 
 <a href = "https://github.com/Jonak-Adipta-Kalita/JAK-JavaScript-Package/graphs/contributors">
