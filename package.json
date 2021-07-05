@@ -1,6 +1,6 @@
 {
     "name": "@xxjonakadiptaxx/jak_javascript_package",
-    "version": "0.1.8",
+    "version": "1.0.0",
     "description": "A JavaScript Package made by JAK",
     "author": "Jonak Adipta Kalita",
     "main": "src/index.js",
