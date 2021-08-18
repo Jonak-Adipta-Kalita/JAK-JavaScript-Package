@@ -75,6 +75,10 @@ npm link @xxjonakadiptaxx/jak_javascript_package
 
 and hit Enter.
 
+## Technology(s) Used
+
+-   Language: [JavaScript](https://www.javascript.com/)
+
 ## Contributors
 
 <a href = "https://github.com/Jonak-Adipta-Kalita/JAK-JavaScript-Package/graphs/contributors">
