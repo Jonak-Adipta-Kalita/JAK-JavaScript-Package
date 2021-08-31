@@ -3,6 +3,7 @@
     "version": "1.0.2",
     "description": "A JavaScript Package made by JAK",
     "author": "Jonak Adipta Kalita",
+    "license": "MIT",
     "main": "src/index.js",
     "scripts": {
         "test": "echo No Tests provided till now.",
