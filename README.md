@@ -4,6 +4,7 @@
 
 ![npm (scoped)](https://img.shields.io/npm/v/@xxjonakadiptaxx/jak_javascript_package?style=for-the-badge)
 ![npm](https://img.shields.io/npm/dw/@xxjonakadiptaxx/jak_javascript_package?style=for-the-badge)
+![License](https://img.shields.io/github/license/Jonak-Adipta-Kalita/JAK-JavaScript-Package?style=for-the-badge)
 ![GitHub Repo Stars](https://img.shields.io/github/stars/Jonak-Adipta-Kalita/JAK-JavaScript-Package?style=for-the-badge)
 ![GitHub Forks](https://img.shields.io/github/forks/Jonak-Adipta-Kalita/JAK-JavaScript-Package?style=for-the-badge)
 ![GitHub Watchers](https://img.shields.io/github/watchers/Jonak-Adipta-Kalita/JAK-JavaScript-Package?style=for-the-badge)
