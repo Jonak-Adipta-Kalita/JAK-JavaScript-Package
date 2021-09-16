@@ -58,21 +58,9 @@ and hit Enter.
 
 Make some changes and save them.
 
-### Create Test Folder
-
-In the Base Directory, in a Terminal type
-
-```bash
-mkdir test
-cd test
-echo.> test.js
-```
-
-and hit Enter.
-
 ### Install the changed Package in the Test Folder
 
-In the Base Directory, in a Terminal type
+In the `test` Directory, in a Terminal type
 
 ```bash
 npm link @xxjonakadiptaxx/jak_javascript_package

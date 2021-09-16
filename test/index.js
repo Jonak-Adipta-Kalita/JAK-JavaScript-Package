@@ -1,4 +1,4 @@
-const utils = require("..");
+const utils = require("@xxjonakadiptaxx/jak_javascript_package");
 const assert = require("assert");
 
 assert.strictEqual(utils.removeSpaceFromString("Hello World"), "HelloWorld");
