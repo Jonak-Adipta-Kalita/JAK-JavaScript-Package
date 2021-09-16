@@ -1,12 +1,15 @@
 {
     "name": "@xxjonakadiptaxx/jak_javascript_package",
-    "version": "1.0.3",
+    "version": "2.0.0",
     "description": "A JavaScript Package made by JAK",
     "author": "Jonak Adipta Kalita",
     "license": "MIT",
-    "main": "src/index.js",
+    "main": "dist/jak-javascript-package.cjs.js",
+    "module": "dist/jak-javascript-package.esm.js",
+    "browser": "dist/jak-javascript-package.umd.js",
     "scripts": {
-        "test": "echo No Tests provided till now.",
+        "build": "rollup -c",
+        "test": "node test/index.js",
         "lint": "eslint .",
         "lint:fix": "eslint --fix .",
         "prettier": "prettier **/*.{js,ts,md,json}",
@@ -26,8 +29,18 @@
     },
     "homepage": "https://github.com/Jonak-Adipta-Kalita/JAK-JavaScript-Package#readme",
     "devDependencies": {
+        "@babel/core": "^7.15.5",
+        "@babel/preset-env": "^7.15.6",
         "eslint": "^7.27.0",
         "husky": "^6.0.0",
-        "prettier": "^2.3.0"
-    }
+        "prettier": "^2.3.0",
+        "rollup": "^2.56.3",
+        "rollup-plugin-babel": "^4.4.0",
+        "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-node-resolve": "^5.2.0"
+    },
+    "files": [
+        "dist",
+        "src"
+    ]
 }
