@@ -1482,8 +1482,8 @@ prelude-ls@^1.2.1:
   resolved "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz"
 
 prettier@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.npmjs.org/prettier/-/prettier-2.3.0.tgz"
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
 
 progress@^2.0.0:
   version "2.0.3"
