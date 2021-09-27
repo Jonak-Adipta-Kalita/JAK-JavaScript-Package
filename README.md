@@ -44,29 +44,29 @@ In a Directory open a Terminal and type:
 git clone https://github.com/Jonak-Adipta-Kalita/JAK-JavaScript-Package.git
 ```
 
-### Link the Package
+### Build files
 
 In the Base Directory, in a Terminal type
 
 ```bash
-npm link
+npm run build
+
+# or
+
+yarn build
 ```
 
-and hit Enter.
+### Test
 
-### Make Change
-
-Make some changes and save them.
-
-### Install the changed Package in the Test Folder
-
-In the `test` Directory, in a Terminal type
+In the Base Directory, in a Terminal type
 
 ```bash
-npm link @xxjonakadiptaxx/jak_javascript_package
-```
+npm test
 
-and hit Enter.
+# or
+
+yarn test
+```
 
 ## Technology(s) Used
 

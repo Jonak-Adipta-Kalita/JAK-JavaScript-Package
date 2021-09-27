@@ -1,8 +1,8 @@
 "use strict";
 
-const removeSpaceFromString = (string) => {
-    if (typeof string !== "string") throw new TypeError("Provide a STRING!!");
-    return string.replace(/\s/g, "");
-};
+import removeSpace from "./removeSpace";
+import toTitleCase from "./toTitleCase";
+import toLowerCase from "./toLowerCase";
+import toUpperCase from "./toUpperCase";
 
-export { removeSpaceFromString };
+export { removeSpace, toTitleCase, toLowerCase, toUpperCase };
