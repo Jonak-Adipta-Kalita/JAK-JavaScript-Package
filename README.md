@@ -20,18 +20,30 @@ Go to the [Package](https://www.npmjs.com/package/@xxjonakadiptaxx/jak_javascrip
 
 ```bash
 npm install @xxjonakadiptaxx/jak_javascript_package
+
+# or
+
+yarn add @xxjonakadiptaxx/jak_javascript_package
 ```
 
 ### Linux
 
 ```bash
 npm install @xxjonakadiptaxx/jak_javascript_package
+
+# or
+
+yarn add @xxjonakadiptaxx/jak_javascript_package
 ```
 
 ### MacOS
 
 ```bash
 npm install @xxjonakadiptaxx/jak_javascript_package
+
+# or
+
+yarn add @xxjonakadiptaxx/jak_javascript_package
 ```
 
 ## Check if your changes Work
