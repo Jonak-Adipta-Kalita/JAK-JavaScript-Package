@@ -1,8 +1,5 @@
 "use strict";
 
-import removeSpace from "./removeSpace";
-import toTitleCase from "./toTitleCase";
-import toLowerCase from "./toLowerCase";
-import toUpperCase from "./toUpperCase";
+import * as editMessage from "./editMessage/index";
 
-export { removeSpace, toTitleCase, toLowerCase, toUpperCase };
+export { editMessage };
