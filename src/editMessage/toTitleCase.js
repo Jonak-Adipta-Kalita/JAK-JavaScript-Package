@@ -1,3 +1,8 @@
+/**
+ * Title Case a String!!
+ * @param {string} string String to Title Case
+ * @returns String but Title Cased!!
+ */
 const toTitleCase = (string) => {
     if (typeof string !== "string") throw new TypeError("Provide a STRING!!");
 
