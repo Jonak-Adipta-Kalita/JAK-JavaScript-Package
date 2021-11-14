@@ -12,8 +12,8 @@
         "test": "jest",
         "lint": "eslint .",
         "lint:fix": "eslint --fix .",
-        "prettier": "prettier **/*.{js,ts,md,json}",
-        "prettier:fix": "prettier --write **/*.{js,ts,md,json}",
+        "prettier": "prettier **/*.{js,ts,md,css,json}",
+        "prettier:fix": "prettier --write **/*.{js,ts,md,css,json}",
         "prepare": "husky install"
     },
     "repository": {
