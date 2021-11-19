@@ -14,6 +14,7 @@
         "lint:fix": "eslint --fix .",
         "prettier": "prettier **/*.{js,ts,md,css,json}",
         "prettier:fix": "prettier --write **/*.{js,ts,md,css,json}",
+		"format": "eslint --fix . && prettier --write **/*.{js,ts,md,css,json}",
         "prepare": "husky install"
     },
     "repository": {
