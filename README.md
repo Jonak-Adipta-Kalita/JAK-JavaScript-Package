@@ -82,7 +82,7 @@ yarn test
 
 ## Technology(s) Used
 
--   Language: [JavaScript](https://www.javascript.com/)
+-   Language: [TypeScript](https://www.typescriptlang.org/)
 
 ## Contributors
 
