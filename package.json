@@ -1,6 +1,6 @@
 {
     "name": "@xxjonakadiptaxx/jak_javascript_package",
-    "version": "3.0.0",
+    "version": "3.1.0",
     "description": "A JavaScript Package made by JAK",
     "author": "Jonak Adipta Kalita",
     "license": "MIT",
@@ -41,6 +41,7 @@
         "@types/jest": "^27.4.0",
         "@typescript-eslint/eslint-plugin": "^5.10.0",
         "@typescript-eslint/parser": "^5.10.0",
+        "axios": "^0.27.2",
         "eslint": "^7.32.0",
         "husky": "^7.0.2",
         "jest": "^27.4.7",
