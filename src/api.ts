@@ -1,6 +1,6 @@
 import axios from "axios";
 
-interface Ben10 {
+export interface Ben10 {
     omnitrix: {
         id: number;
         name: string;
@@ -8,7 +8,7 @@ interface Ben10 {
     }[];
 }
 
-interface BrawlStars {
+export interface BrawlStars {
     brawlers: {
         id: number;
         name: string;
@@ -19,7 +19,7 @@ interface BrawlStars {
     }[];
 }
 
-interface GenshinImpact {
+export interface GenshinImpact {
     character: {
         id: number;
         name: string;
@@ -34,7 +34,7 @@ interface GenshinImpact {
     }[];
 }
 
-interface JAK {
+export interface JAK {
     hobby: [
         {
             id: number;
@@ -105,7 +105,7 @@ interface JAK {
     }[];
 }
 
-interface Miraculous {
+export interface Miraculous {
     kwamis: {
         id: number;
         name: string;
@@ -113,6 +113,7 @@ interface Miraculous {
         owner: string[];
         holder: string;
         miraculous: string;
+		magical_words: string | null;
     }[];
     holders: {
         id: number;
@@ -141,7 +142,7 @@ interface Miraculous {
     }[];
 }
 
-interface MughalEmpire {
+export interface MughalEmpire {
     description: string;
     kings: {
         id: number;
