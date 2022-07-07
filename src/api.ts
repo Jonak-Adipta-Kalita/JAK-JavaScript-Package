@@ -113,7 +113,7 @@ export interface Miraculous {
         owner: string[];
         holder: string;
         miraculous: string;
-		magical_words: string | null;
+        magical_words: string | null;
     }[];
     holders: {
         id: number;
