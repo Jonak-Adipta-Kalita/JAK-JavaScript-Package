@@ -16,7 +16,27 @@ export interface BrawlStars {
         gadget: [string, string | null];
         starpower: [string, string | null];
         category: string;
+        pins: {
+            image: string;
+        }[];
+        sprays:
+            | {
+                  image: string;
+              }[]
+            | null;
+        profile_icon: { image: string }[];
     }[];
+    players: {
+        pins: {
+            image: string;
+        }[];
+        sprays: {
+            image: string;
+        }[];
+        profile_icons: {
+            image: string;
+        }[];
+    };
 }
 
 export interface GenshinImpact {
@@ -31,6 +51,13 @@ export interface GenshinImpact {
         birthday: string;
         constellation: string;
         nation: string | null;
+    }[];
+    elements: {
+        id: number;
+        name: string;
+        image: string;
+        archon: string;
+        status_applies: string | null;
     }[];
 }
 
@@ -113,6 +140,7 @@ export interface Miraculous {
         owner: string[];
         holder: string;
         miraculous: string;
+        power: string;
         magical_words: string | null;
     }[];
     holders: {
