@@ -82,7 +82,7 @@ export interface JAK {
                 id: number;
                 value: string;
                 website: string;
-				level: integer;
+                level: integer;
                 imageURL: string;
             }[];
             frameworks: {
@@ -90,7 +90,7 @@ export interface JAK {
                 value: string;
                 website: string;
                 languages: string[];
-				level: integer;
+                level: integer;
                 imageURL: string;
             }[];
         },
