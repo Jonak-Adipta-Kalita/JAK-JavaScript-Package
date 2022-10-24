@@ -266,13 +266,17 @@ export class api {
         return response.data;
     }
 
-    async getAlexisResponse(): Promise<string> {
-        const response = await axios.get(`${this.baseURL}/ai`, {
-            headers: {
-                "X-RapidAPI-Host": "jak_api.p.rapidapi.com",
-                "X-RapidAPI-Key": this.rapidAPIKey,
-            },
-        });
+    async getAlexisResponse(message: string): Promise<string> {
+        const response = await axios.post(
+            `${this.baseURL}/ai`,
+            JSON.stringify({ message }),
+            {
+                headers: {
+                    "X-RapidAPI-Host": "jak_api.p.rapidapi.com",
+                    "X-RapidAPI-Key": this.rapidAPIKey,
+                },
+            }
+        );
 
         return response.data;
     }
