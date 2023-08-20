@@ -23,6 +23,9 @@
         "check:version": "ncu",
         "prepare": "husky install"
     },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Jonak-Adipta-Kalita/JAK-JavaScript-Package.git"
